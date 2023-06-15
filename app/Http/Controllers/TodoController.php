@@ -32,6 +32,7 @@ class TodoController extends Controller
         $todo = new Todo;
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
+        $todo->user_id = auth()->id();
         $todo->save();
         return response()->json($todo);
     }
@@ -59,6 +60,7 @@ class TodoController extends Controller
     {
         $todo->title = $request->input('title');
         $todo->description = $request->input('description');
+        $todo->user_id = auth()->id();
         $todo->save();
         return redirect()->route('todos.index');
     }
