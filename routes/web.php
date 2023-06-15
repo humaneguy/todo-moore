@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 
-Route::resource('todos', TodoController::class);
+Route::resource('todos', TodoController::class)->middleware('auth');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
