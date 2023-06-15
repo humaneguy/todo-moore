@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Edit Todo</h2>
+            <h2>Edit Task</h2>
             <div class="card">
                 <div class="card-body">
                     <form id="edit-form" action="{{ route('todos.update', $todo->id) }}" method="POST">

@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Todos</h2>
+            <h2>Tasks</h2>
             <a href="{{ route('todos.create') }}" class="btn btn-primary mb-3">Add Todo</a>
             <table class="table">
                 <thead>
