@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Create Todo</h2>
+            <h2>Create Task</h2>
             <div class="card">
                 <div class="card-body">
                     <form id="create-form" action="{{ route('todos.store') }}" method="POST">
@@ -17,7 +17,7 @@
                             <label for="description">Description</label>
                             <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Create Todo</button>
+                        <button type="submit" class="btn btn-primary">Create Task</button>
                     </form>
                 </div>
             </div>

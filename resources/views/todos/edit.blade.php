@@ -18,7 +18,7 @@
                             <label for="description">Description</label>
                             <textarea class="form-control" id="description" name="description" rows="4" required>{{ $todo->description }}</textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Update Todo</button>
+                        <button type="submit" class="btn btn-primary">Update Task</button>
                     </form>
                 </div>
             </div>

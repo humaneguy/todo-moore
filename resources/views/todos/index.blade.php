@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12">
             <h2>Tasks</h2>
-            <a href="{{ route('todos.create') }}" class="btn btn-primary mb-3">Add Todo</a>
+            <a href="{{ route('todos.create') }}" class="btn btn-primary mb-3">Add Task</a>
             <table class="table">
                 <thead>
                     <tr>
